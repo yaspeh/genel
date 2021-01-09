@@ -1,0 +1,180 @@
+body {
+	margin:0;
+	padding:0;
+	background: url("../images/dikey-u.jpg");
+	background-repeat:repeat-x;
+}
+
+#baslik {
+	width:960px;
+	height:50px;
+	position:relative;
+	margin:0 auto;
+}
+#baslik a#logo {
+	position:relative;
+	z-index:100;
+}
+#baslik a#logo img {
+	border:0;
+}
+
+  #baslik ul.navigasyon {
+	list-style-type:none;
+	margin:-82px 0 0 300px;
+	padding:0;
+	overflow:hidden;
+}
+#baslik ul.navigasyon li {
+	float:left;
+	height:35px;
+	width:107px;
+}
+#baslik ul.navigasyon li.secili {
+	background:url("../images/gradyan.png");
+	background-repeat:no-repeat;
+	background-position: 0 -160px;
+}
+#baslik ul.navigasyon li a {
+	text-decoration:none;
+	color:#2c1d00;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	font-weight:bold;
+	display:inline-block;
+	line-height:35px;
+	background:url("../images/dikey.png");
+	background-repeat:no-repeat;
+	background-position:right;
+	height:35px;
+	padding:0 20px 0 20px;
+	text-align:center;
+	width:67px;
+}
+#baslik ul.navigasyon li a:hover {
+	color:#ffffff;
+}
+#body div#icerik {
+	width: 900px;
+	margin:0 auto;
+	overflow:hidden;
+	background-image:none;
+	height:auto;
+	overflow:hidden;
+}
+
+#body #icerik .icerik h2 {
+	font-family: "Myriad Pro";
+	margin: 80px 0 0 40px;
+}
+#body #icerik .icerik ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#body #icerik .icerik ul li {
+	margin: auto;
+	float:left;
+	line-height:25px;
+	height:auto;
+	padding-bottom: 50px;
+}
+
+#body #icerik .icerik ul li span a {
+	color: #7F7154;
+	font-family: "Myriad Pro";
+	font-size: 14px;
+	text-decoration:none;
+}
+
+
+
+#body #icerik .icerik ul li h2 {
+	font-family:"Myriad Pro";
+	font-size:20px;
+	margin:0;
+}
+#body #icerik .icerik ul li p {
+	font-family:"Myriad Pro";
+	font-size:14px;
+	text-align:justify;
+	color:#7f7154;
+    margin:0;
+    text-align: center;
+}
+
+#body #icerik .icerik .hakkimda ul li {
+	clear:both;
+}
+
+#body #icerik .icerik .hakkimda ul li h2 {
+	margin:0;
+	padding:0;
+	font-weight:normal;
+}
+   #alt {
+	background-color:#ff9506
+}
+#alt .lisans {
+	width:960px;
+	margin:0 auto;
+	overflow:hidden;
+	position:relative;
+}
+#alt .lisans ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#alt .lisans ul li {
+	float:left;
+	width:240px;
+	height:190px;
+}
+#alt .lisans ul li img {
+	position:absolute;
+	top:0;
+}
+#alt .lisans ul li h2 {
+	position:relative;
+	top:60px;
+	left:0;
+	z-index:10;
+	padding: 0 10px 0 15px;
+	margin:20px 0 -15px 0;
+	 }
+#alt .lisans ul li h2 a {
+	font-family:"Myriad Pro", Arial;
+	font-size:16px;
+	color:#bffb05;
+	text-decoration:none;
+	font-weight:normal;
+}
+#alt .lisans ul li p {
+	position:relative;
+	top:60px;
+	padding: 0 10px 0 15px;
+	z-index:10;
+	font-family:"Myriad Pro";
+	font-size:14px;
+	color:#ffffff;
+	line-height:20px;
+}
+#alt .lisans ul li p a {
+	color:#ffffff;
+}
+#alt .lisans ul li p a:hover {
+	color:#ff6700;
+}
+
+#alt #alt2 {
+	background-color:#ffad00;
+}
+#alt #alt2 .lisans {
+	width:960px;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-family:"Myriad Pro";
+	font-size:13px;
+}
